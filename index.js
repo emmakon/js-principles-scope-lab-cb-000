@@ -10,5 +10,6 @@ function setBestCustomer() {
 }
 
 function overwriteBestCustomer(bestCustomer) {
-  bestCustomer = 'bob';
+  bestCustomer = 'maybe bob';
+  return bestCustomer;
 }
